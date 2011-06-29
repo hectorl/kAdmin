@@ -1,0 +1,25 @@
+header{
+	font-size:1.2em;
+	min-height:50px;
+	padding:10px 10px;
+	position:fixed;
+	z-index:2;
+	top:0;
+	width:100%
+}
+
+	header p#kadmin-logo{
+		float:left
+	}
+	
+		header p#kadmin-logo a{
+			background:url(../img/logo-kadmin.png) no-repeat;
+			display:block;
+			height:54px;
+			outline:none;
+			width:175px
+		}
+
+			header p#kadmin-logo a span{
+				display:none
+			}

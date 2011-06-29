@@ -1,0 +1,33 @@
+div#USERS_MGMT-header{
+	float:right;
+	margin:0 20px 0 0
+}
+
+	div#USERS_MGMT-header ul{
+		float:left
+	}
+	
+		div#USERS_MGMT-header ul li{
+			margin-bottom:5px
+		}
+
+		div#USERS_MGMT-header ul li.actions{
+			float:right
+		}
+
+			div#USERS_MGMT-header ul li a{
+				background-color:#333333;
+				color:#8C8979;
+				padding:3px;
+				text-decoration:none
+			}
+	
+			div#USERS_MGMT-header ul li a:hover{
+				background-color:#8C8979;
+				color:#333333
+			}
+	
+	div#USERS_MGMT-header img{
+		float:left;
+		width:50px
+	}

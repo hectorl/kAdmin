@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin lang="ES">
+
+	<name>Users managment</name>
+	<author>Héctor Laura</author>
+	<email>hector.laura@fishbowl.es</email>
+	<author_uri>http://www.fishbowl.es</author_uri>
+	<plugin_uri>http://www.fishbowl.es</plugin_uri>
+	<default_lang>ES</default_lang>
+	<description>
+		<lang code="ES">Mantenimiento de usuarios</lang>
+		<lang code="EN">Users managment</lang>
+	</description>
+	<date>19/12/2009</date>
+	<version>1.0</version>
+	<abbr>USERS_MGMT</abbr>
+
+	<templates>
+
+		<tpl>
+			<dir>includes/inc.header.tpl</dir>
+			<side>header</side>
+			<access>USER</access>
+			<styles>
+				<css>header.css</css>
+			</styles>
+		</tpl>
+
+		<tpl>
+			<dir>site.login.tpl</dir>
+			<side>in_main</side>
+			<access>ALL</access>
+			<styles>
+				<css>login.css</css>
+			</styles>
+		</tpl>
+
+		<tpl>
+			<dir>site.user_welcome.tpl</dir>
+			<side>content</side>
+			<access>USER</access>
+			<styles>
+				<css>welcomazo.css</css>
+			</styles>
+		</tpl>
+
+		<tpl>
+			<dir>site.user_data.tpl</dir>
+			<side>content</side>
+			<access>USER</access>
+			<styles>
+				<css>user_datazo.css</css>
+			</styles>
+		</tpl>
+
+		<tpl>
+			<dir>site.group_data.tpl</dir>
+			<side>content</side>
+			<access>USER</access>
+			<styles>
+				<css>group_data.css</css>
+			</styles>
+		</tpl>
+
+		<tpl>
+			<dir>site.users_list.tpl</dir>
+			<side>content</side>
+			<nav>
+				<button lang="ES" class="" title="">USUARIOS</button>
+				<button lang="EN">USERS</button>
+			</nav>
+			<access>ADMIN</access>
+			<styles>
+				<css>users_list.css</css>
+			</styles>
+		</tpl>
+
+		<tpl>
+			<dir>site.users_table.tpl</dir>
+			<side>content</side>
+			<nav>
+				<button lang="ES" class="" title="">TABLA DE USUARIOS</button>
+				<button lang="EN">USERS TABLE</button>
+			</nav>
+			<access>SUPERADMIN</access>
+			<styles>
+				<css>users_table.css</css>
+			</styles>
+			<scripts>
+				<js>users_table.js</js>
+			</scripts>
+		</tpl>
+
+	</templates>
+
+</plugin>

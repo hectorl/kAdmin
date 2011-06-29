@@ -1,0 +1,36 @@
+$(document).ready(function(){
+
+	$('#lang').change(function(){
+
+		$('#formLang').submit();
+
+	});//fin change
+
+
+	/*INSTALACIÓN------------------------------------------*/
+
+		$("#formInstall").validate();
+
+
+		$("#submitInstall").click(function(){
+
+			var host = $('#host').val();
+			var user = $('#user').val();
+			var pass = $('#pass').val();
+			var db   = $('#db').val();
+
+			$.getJSON(URL_SITE + 'includes/AJAX.php', {action: 'chkConection', host: host, user: user, pass: pass, db: db}, function(resp){
+
+				if(resp){
+					console.log('datos correctos');
+					$("#formInstall").submit();
+				}else{
+					console.log('datos incorrectos');
+					return false;
+				}//fin else
+
+			});//fin getJSON
+
+		});//fin click
+
+});//fin ready

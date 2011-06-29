@@ -1,0 +1,21 @@
+/**
+ * 	Color schemes
+ * 
+ * 	- Copy of Artoo
+ * 		#AE3135
+ * 		#D1AF87
+ * 		#8C826B
+ * 		#3D3C33
+ * 		#F2F0CE
+ */
+
+
+html, body{
+	margin:0;
+	padding:0;
+	height:100%
+}
+
+ul, ol, dl{
+	list-style:none
+}

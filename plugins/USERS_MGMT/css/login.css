@@ -1,0 +1,51 @@
+section#login{
+	background:none;
+	float:none;
+	margin:0 auto;
+	position:relative;
+	width:650px
+}
+
+form#formLogin{
+	float:right;
+	width:335px
+}
+
+legend{
+	font-size:20px
+}
+
+label{
+	display:block;
+	margin-bottom:5px;
+	text-align:left
+}
+
+input[type=text], input[type=password]{
+	border:2px solid #000;
+	font-size:20px;
+	padding:8px 5px 8px 8px;
+	width:320px;
+}
+
+input[type=submit]{
+	background-color:#333333;
+	border:none;
+	-moz-border-radius:4px;
+	-webkit-border-radius:3px;
+	-moz-box-shadow:2px 2px 2px #888;
+	-webkit-box-shadow:2px 2px 2px #888;
+	box-shadow:2px 2px 2px #888;
+	color:#9FA66A;
+	cursor:pointer;
+	float:right;
+	font-size:16px;
+	padding:10px 25px;
+	text-shadow:2px 2px #222222;
+}
+
+input[type=submit]:hover{
+	background-color:#9FA66A;
+	color:#333;
+	text-shadow:2px 2px #858956
+}

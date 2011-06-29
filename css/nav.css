@@ -1,0 +1,22 @@
+nav{
+	position:fixed;
+	top:74px;
+	width:100%;
+	z-index:2
+}
+
+	nav ul{
+		list-style:none;
+		overflow:hidden
+	}
+	
+		nav ul li{
+			float:left
+		}
+
+			nav ul li a{
+				display:block;
+				height:20px;
+				padding:3px 10px;
+				width:auto
+			}

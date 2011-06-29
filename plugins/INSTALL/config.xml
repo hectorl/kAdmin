@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin lang="ES">
+
+	<name>Installation</name>
+	<author>Héctor Laura</author>
+	<email>hector.laura@fishbowl.es</email>
+	<author_uri>http://www.fishbowl.es</author_uri>
+	<plugin_uri>http://www.fishbowl.es</plugin_uri>
+	<default_lang>ES</default_lang>
+	<description>
+		<lang code="ES">Instalación de la aplicación</lang>
+		<lang code="EN">Installation</lang>
+	</description>
+	<date>20/03/2011</date>
+	<version>1.5</version>
+	<abbr>INSTALL</abbr>
+
+	<templates>
+
+		<tpl>
+			<dir>site.install.tpl</dir>
+			<side>in_main</side>
+			<access>ALL</access>
+			<styles>
+				<css>install.css</css>
+			</styles>
+			<scripts>
+				<js>main.js</js>
+			</scripts>
+		</tpl>
+
+	</templates>
+
+</plugin>

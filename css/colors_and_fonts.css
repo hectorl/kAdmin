@@ -1,0 +1,38 @@
+body{
+	background-color:#F2F2F2;
+	font:62.5% Helvetica, Arial, sans-serif
+}
+
+header{
+	background-color:#262526;	
+	color:#F2F2F2	
+}
+
+nav{
+	background-color:#404040
+}
+
+	nav ul li a{
+		-moz-border-radius-topright:10px;
+		color:#F2F2F2;
+		line-height:20px;
+		padding:0 5px;
+		text-decoration:none
+	}
+
+	nav ul li a:hover{
+		background-color:#8C8979;
+		color:#404040
+	}
+
+legend{
+	background-color:#8C8979
+}
+
+section{
+	background-color:#F2F2F2
+}
+
+footer{
+	background-color:#F60A20
+}

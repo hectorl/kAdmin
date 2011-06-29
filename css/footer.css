@@ -1,0 +1,25 @@
+footer{
+	bottom:0;
+	height:32px;
+	padding:10px;
+	position:fixed;
+	width:100%;
+	z-index:10	
+}
+
+	footer p#html5-logo{
+		float:right;
+		margin-right:30px
+	}
+
+		footer p#html5-logo a{
+			background:url(../img/logo-html5_32x32.png) no-repeat;
+			display:block;
+			height:64px;
+			outline:none;
+			width:64px
+		}
+
+			footer p#html5-logo a span{
+				display:none
+			}
